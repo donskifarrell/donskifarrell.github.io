@@ -19,11 +19,15 @@
   margin-top: 20%;
 }
 
+.lighter-font {
+  font-weight:500;
+}
+
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
-  font-weight:300;
+  font-weight:600;
   background-color: #F9FFFB;
 }
 
