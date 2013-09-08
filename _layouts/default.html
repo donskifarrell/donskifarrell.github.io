@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Donal Farrell - {{ page.title }}</title>
 
+    <link rel="stylesheet" href="{{ page.root }}/stylesheets/purecss.grids.css">
     <link rel="stylesheet" href="{{ page.root }}/stylesheets/styles.css">
     <link rel="stylesheet" href="{{ page.root }}/stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -13,31 +14,26 @@
     <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1 id="myName">Donal Farrell</h1>
-        <p>Born in Belfast; working in London</p>
-        <hr/>
-        <p class="view"><a href="{{ page.root }}">Home</a></p>
-        <hr/>
-        <p class="lighter-font">My Projects:</p>
-        <p class="view"><a href="{{ page.root }}/calex">CaleX</a></p>
-        <p class="view"><a href="http://www.gigspotting.co.uk/">GigSpotting</a></p>
-        <hr/>
-        <p class="lighter-font">Useful Links:</p>
-        <p class="view"><a href="https://github.com/donskifarrell">View my GitHub Repositories</a></p>
-        <p class="view"><a href="http://stackoverflow.com/users/351847/donal">View my StackOverflow profile</a></p>
-        <hr/>
-        <p>Contact - <a href="mailto:donal@donalfarrell.com">donal @ donalfarrell.com</a></p>       
-      </header>        
-      <section class="main">
+    <div class="pure-g-r header">
+        <span id="myName">Donal Farrell</span> <span id="slash">/</span> <span id="tag">Born in Belfast; working in London</span>
+    </div>
+
+    <div class="pure-g-r main-content">
+      <div class="pure-u-1-5 nav">
+          <p>Thirds</p>
+      </div>
+
+      <div class="pure-u-1-3 main"> 
         {{ content }}
-      </section>
-      <footer>
+      </div>
+    </div>
+
+    <div class="pure-g-r footer">
+        <hr />
         <p>This blog is maintained at <a href="https://github.com/donskifarrell">donskifarrell</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
     </div>
+
     <script src="{{ page.root }}/javascripts/scale.fix.js"></script>
     <script type="text/javascript">
       var _gaq = _gaq || [];
