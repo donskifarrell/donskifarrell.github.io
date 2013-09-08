@@ -56,6 +56,15 @@
   letter-spacing: normal;
 }
 
+.main-content {
+  margin-left: 5%;
+  letter-spacing: normal;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
 .post-arrows {
   vertical-align: text-bottom;
 }
@@ -67,18 +76,12 @@
   letter-spacing: normal;
 }
 
-.wrapper {
-  width: 1000px;
-  margin:0 auto;
-  letter-spacing: normal;
-}
-
 body {
-  padding: 50px;
   font: 14px/1.5 Merriweather, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #777;
   background-color: #F0F0E8;
   letter-spacing: normal;
+  margin-left: 10%;
 }
 
 li {
