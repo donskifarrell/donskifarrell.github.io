@@ -4,8 +4,6 @@ title: Issues with Calex and GitHub
 root: ../../../
 ---
 
-## Issues with Calex and GitHub
-
 So my side project [Calex](http://www.donalfarrell.com/calex/) is pretty much finished, except for one critical issue - adding a new blog post is not possible while using a custom domain.
 
 To give a quick summary, the idea behind [Calex](http://www.donalfarrell.com/calex/) was to easily add and view what activities/tasks were done on any particular day. 

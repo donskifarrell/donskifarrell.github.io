@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
 
 @font-face {
     font-family: Amperzand;
@@ -23,12 +24,28 @@
   font-weight:500;
 }
 
+.main {
+  background-color: #FCFCFA;
+  border-radius: 5px;
+  border: solid 1px #e2e0d8;
+  padding: 30px;
+}
+
+.post-title {
+  color: #f14e32;
+  font-size: 21px;
+  font-weight: bold;
+}
+
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:14px/1.5 Merriweather, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
-  font-weight:600;
-  background-color: #F9FFFB;
+  background-color: #F0F0E8;
+}
+
+li {
+  display: block;
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -7,7 +7,7 @@ title: Home
 <p>I like music, films, travelling and most things computer related.</p>
 
 {% for post in site.posts %}
-  <li> <a href="{{ post.url }}">{{ post.title }}</a> &raquo; <span>{{ post.date | date_to_string }}</span> 
+  <li> <a class="post-title" href="{{ post.url }}">{{ post.title }}</a> &raquo; <span>{{ post.date | date_to_string }}</span> 
   <p> {{ post.content }} </p>
 {% endfor %}
      
