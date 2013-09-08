@@ -29,12 +29,22 @@
   border-radius: 5px;
   border: solid 1px #e2e0d8;
   padding: 30px;
+  width: 615px;
+}
+
+.post-arrows {
+  vertical-align: text-bottom;
 }
 
 .post-title {
   color: #f14e32;
   font-size: 21px;
   font-weight: bold;
+}
+
+.wrapper {
+  width: 1000px;
+  margin:0 auto;
 }
 
 body {
@@ -85,11 +95,6 @@ a small {
   color:#777;
   margin-top:-0.6em;
   display:block;
-}
-
-.wrapper {
-  width:860px;
-  margin:0 auto;
 }
 
 blockquote {
