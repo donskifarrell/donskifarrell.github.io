@@ -1,11 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
 @import url(http://fonts.googleapis.com/css?family=Merriweather);
 
 @font-face {
     font-family: ostrich;
-    #src: url('/fonts/ostrich-regular.ttf');
     src: url('/fonts/ostrich-black.ttf');
-    #src: url('/fonts/ostrich-bold.ttf');
 }
 
 #myName {
@@ -52,13 +50,61 @@
   border-radius: 5px;
   border: solid 1px #e2e0d8;
   padding: 30px;
-  #width: 615px;
   letter-spacing: normal;
+  margin-top: 2%;
 }
 
 .main-content {
   margin-left: 5%;
   letter-spacing: normal;
+}
+
+.nav {
+  margin-top: 6.5%;
+}
+
+.menu-header {
+  font-size: 27px;
+  font-weight: bold;
+  letter-spacing: normal;  
+}
+
+.menu-item {
+  text-indent: 50px; 
+}
+
+.project {
+  margin-left: 10px;
+}
+
+.link-item {
+  text-indent: 10px; 
+}
+
+.link-img {
+  vertical-align: middle;
+}
+
+.link-text {
+  padding-left: 20px;
+  text-decoration: none;
+  color: #777;
+}
+
+.link-text:hover {
+  text-decoration: underline;
+}
+
+#github {
+  background-color: #4183C4;
+}
+
+#stack {
+  background-color: #F47920;
+}
+
+#email {
+  background-color: #DD4B39;
 }
 
 .footer {
