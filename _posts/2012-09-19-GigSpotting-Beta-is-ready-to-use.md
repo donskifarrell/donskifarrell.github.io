@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 title: GigSpotting Beta is ready to use
 root: ../../../
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 title: Issues with Calex and GitHub
 root: ../../../
 ---
