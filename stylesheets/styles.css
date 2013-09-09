@@ -2,8 +2,12 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather);
 
 @font-face {
-    font-family: ostrich;
-    src: url('/fonts/ostrich-black.ttf');
+  font-family: ostrich;
+  src: url('/fonts/ostrich-black.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/ostrich-black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/ostrich-black.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/ostrich-black.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/ostrich-black.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 #myName {
@@ -29,15 +33,6 @@
 #hello {  
   font-size: 26px;
   text-decoration: underline;
-  letter-spacing: normal;
-}
-
-.logo { 
-  margin-top: 20%;
-}
-
-.lighter-font {
-  font-weight:500;
   letter-spacing: normal;
 }
 
@@ -128,6 +123,10 @@ body {
   background-color: #F0F0E8;
   letter-spacing: normal;
   margin-left: 10%;
+}
+
+a img {
+  outline : none; 
 }
 
 li {
@@ -309,73 +308,3 @@ footer {
   bottom:50px;
 }
 
-@media print, screen and (max-width: 960px) {
-  
-  div.wrapper {
-    width:auto;
-    margin:0;
-  }
-  
-  header, section, footer {
-    float:none;
-    position:static;
-    width:auto;
-  }
-  
-  header {
-    padding-right:320px;
-  }
-  
-  section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
-  }
-  
-  header a small {
-    display:inline;
-  }
-  
-  header ul {
-    position:absolute;
-    right:50px;
-    top:52px;
-  }
-}
-
-@media print, screen and (max-width: 720px) {
-  body {
-    word-wrap:break-word;
-  }
-  
-  header {
-    padding:0;
-  }
-  
-  header ul, header p.view {
-    position:static;
-  }
-  
-  pre, code {
-    word-wrap:normal;
-  }
-}
-
-@media print, screen and (max-width: 480px) {
-  body {
-    padding:15px;
-  }
-  
-  header ul {
-    display:none;
-  }
-}
-
-@media print {
-  body {
-    padding:0.4in;
-    font-size:12pt;
-    color:#444;
-  }
-}
