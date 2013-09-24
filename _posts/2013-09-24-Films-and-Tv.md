@@ -10,6 +10,6 @@ Regardless, I find myself forced to watch because how do you know the good if yo
 
 So with a bit of inspiration from the flatmate, I decided I should start to blog about what I watch. This will serve to help me remember what was good and bad and also let me slag of the really shit parts of a movie. Or the whole thing (I'm looking at you 'Jobs').
 
-I've created a subdomain for this at http://thethingsiwatch.donalfarrell.com/. No content yet as i've a couple of things to finish off, but will hopefully be done soon.
+I've created a subdomain for this at [thethingsiwatch.donalfarrell.com](http://thethingsiwatch.donalfarrell.com/). No content yet as i've a couple of things to finish off, but will hopefully be done soon.
 
 Donal
