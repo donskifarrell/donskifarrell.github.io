@@ -17,7 +17,6 @@ Vagrant::VERSION >= "1.1.0" and Vagrant.configure("2") do |config|
     config.vm.box_url = BOX_URI
   end
 
-  config.vm.synced_folder "/home/donski/devflow/devel/gitscm-next/", "/gitblog/"
 end
 
 Vagrant::VERSION >= "1.1.0" and Vagrant.configure("2") do |config|
