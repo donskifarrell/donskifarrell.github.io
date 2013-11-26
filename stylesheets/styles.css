@@ -10,10 +10,6 @@
        url('/fonts/ostrich-black.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
-li {
-  display: list-item;
-}
-
 #myName {
   font-family: ostrich;
   padding-left: 25px;
@@ -134,7 +130,7 @@ a img {
 }
 
 li {
-  display: block;
+  display: list-item;
   letter-spacing: normal;
 }
 
