@@ -11,6 +11,6 @@ I run linux so I decided to use my VirtualBox instance to boot up Windows 8. I g
 Unusual, but it had a workaround. The real showstopper was that although I could detect a CapsLock keypress, there was no way of determining if CapsLock was enabled or not. Every state reading put it as false. Numerous libraries were tried and numerous hooks made into low level COM objects but nothing worked. As a final attempt I decided to run my code on an actual Windows 8 desktop - success! A quick installation of Windows 8 on VMWare Player found it was working also.
 
 So there seems to be a defect in how VirtualBox handles keyboard input in Windows 8 guest, or maybe it was a dodgy install? 
-Regardless, there's a (VirtualBox bug ticket)[https://www.virtualbox.org/ticket/12404] for it now. 
+Regardless, there's a [VirtualBox bug ticket](https://www.virtualbox.org/ticket/12404) for it now. 
 
 
