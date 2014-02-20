@@ -10,6 +10,10 @@
        url('/fonts/ostrich-black.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
+.biz-no {
+  font-size: 1.25em;
+}
+
 #myName {
   font-family: ostrich;
   padding-left: 25px;
