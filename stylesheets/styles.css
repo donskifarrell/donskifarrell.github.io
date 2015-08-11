@@ -94,6 +94,10 @@
   text-decoration: underline;
 }
 
+#disqus {
+  background-color: #4183C4;
+}
+
 #github {
   background-color: #6fab24;
 }
