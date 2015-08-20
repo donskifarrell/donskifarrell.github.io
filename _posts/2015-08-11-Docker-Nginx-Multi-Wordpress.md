@@ -37,7 +37,7 @@ Hopefully this will become much more streamlined once [Let's Encrypt](https://le
       -keyout capslocknotificationapp.com.key \
       -out capslocknotificationapp.com.csr
 
-  **Note:** resultant file should be <domain-class>.<domain-name>.<extension>.crt e.g blog.donalfarrell.com.crt
+  **Note:** resultant file should be `<domain-class>.<domain-name>.<extension>.crt` e.g `blog.donalfarrell.com.crt`
 
 ### 2. Generate SSL certificate with Certificate Authority
 
@@ -51,7 +51,7 @@ Hopefully this will become much more streamlined once [Let's Encrypt](https://le
       AddTrustExternalCARoot.crt \
        > capslocknotificationapp.com.crt
 
-  **Note:** resultant file should be <domain-class>.<domain-name>.<extension>.crt e.g blog.102somerton.com.crt
+  **Note:** resultant file should be `<domain-class>.<domain-name>.<extension>.crt` e.g `blog.donalfarrell.com.crt`
 
 ### 3. Copy final _.crt_ certificate back to server:
 
@@ -64,7 +64,7 @@ Now we have the certificates in place we want to set up a server to route any re
 
 Apache is quite clunky in my opinion and the new hotness is Nginx, so I went with that. There is a fantastic docker image that allows you to create a Nginx reverse proxy complete with dynamic configuration generation and matching of SSL certificates. Details of it can be found here: [http://jasonwilder.com/blog/2014/03/25/automated-nginx-reverse-proxy-for-docker/](http://jasonwilder.com/blog/2014/03/25/automated-nginx-reverse-proxy-for-docker/)
 
-### 1. Configure nginx reverse proxy:
+### Configure nginx reverse proxy:
     docker run -d \
       --name nginx-reverse-proxy \
       -p 80:80 -p 443:443 \
@@ -94,7 +94,7 @@ As I run Wordpress sites, I need to use MySQL as my backend store. With Docker, 
       mysql:5.7
 
 
-### PHPMyAdmin
+### Note: PHPMyAdmin
 
 A useful tool to look at the contents of the MySQL instance is [PHPMyAdmin](https://www.phpmyadmin.net/). This tool creates an admin portal that is accessible through a webpage.
 
