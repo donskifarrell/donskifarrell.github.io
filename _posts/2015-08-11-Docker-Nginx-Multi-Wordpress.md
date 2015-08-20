@@ -4,7 +4,7 @@ title: Using Docker and Nginx to serve multiple Wordpress sites
 root: ../../../
 ---
 
-I've just moved back to London and have a bit of spare time to work on a few of my side projects so I decided to have a bash at re-working my websites, notably [CapsLock Notification app](https://www.capslocknotificationapp.com). 
+I've just moved back to London and have a bit of spare time to work on a few of my side projects so I decided to have a bash at re-working my websites, notably [CapsLock Notification app](https://capslocknotificationapp.com/). 
 
 I use [DigitalOcean](https://www.digitalocean.com/?refcode=aa14dbdbf224) (Note: Referral link!) to host my sites and I didn't really want to spin up new instances for each of my sites as for a lot of the time they would be sitting idle, wasting resources and adding unecessary cost.
 
