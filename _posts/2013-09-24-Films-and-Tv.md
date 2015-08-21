@@ -1,5 +1,7 @@
 ---
 layout: posts
+comments: true
+comments-url-tag: film-tv
 title: Films and Tv
 root: ../../../
 ---

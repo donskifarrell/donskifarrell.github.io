@@ -1,5 +1,7 @@
 ---
 layout: posts
+comments: true
+comments-url-tag: setting-github-redirects
 title: Setting up GitHub redirects 
 root: ../../../
 ---

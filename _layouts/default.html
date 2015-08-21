@@ -31,7 +31,6 @@
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="msapplication-TileImage" content="{{ page.root }}/icons/favicon/favicon-144.png">
     <meta name="msapplication-config" content="{{ page.root }}/icons/favicon/browserconfig.xml">
-
   </head>
   <body>
     <div class="pure-g-r header">
@@ -110,6 +109,8 @@
         <p><small>Hosted on GitHub Pages &mdash; Theme taken from the <a href="http://git-scm.com/">official Git</a> page</small></p>
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="{{ page.root }}/javascripts/disqus.js"></script>
     <script src="{{ page.root }}/javascripts/scale.fix.js"></script>
     <script type="text/javascript">
       var _gaq = _gaq || [];
@@ -122,5 +123,20 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
+    <script type="text/javascript">
+      $( document ).ready(function() {
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js'; // Found in disqus.js script
+        jQuery('head').append(dsq);
+
+        // $.getScript( 'http://' + disqus_shortname + '.disqus.com/embed.js', function( data, textStatus, jqxhr ) {
+        //   $(".disqus-load").each(function() {
+        //       loadDisqus($(this), $(this).attr("post-title"), $(this).attr("post-url-tag"));
+        //   })
+        // });
+
+      });
+    </script
   </body>
 </html>

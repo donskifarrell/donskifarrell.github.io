@@ -1,5 +1,7 @@
 ---
 layout: posts
+comments: true
+comments-url-tag: calex-github-issues
 title: Issues with Calex and GitHub
 root: ../../../
 ---

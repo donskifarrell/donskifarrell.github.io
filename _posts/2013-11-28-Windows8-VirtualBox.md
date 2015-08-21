@@ -1,5 +1,7 @@
 ---
 layout: posts
+comments: true
+comments-url-tag: virtualbox-win8
 title: VirtualBox and Windows 8
 root: ../../../
 ---

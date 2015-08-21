@@ -1,5 +1,7 @@
 ---
 layout: posts
+comments: true
+comments-url-tag: gigspotting-beta
 title: GigSpotting Beta is ready to use
 root: ../../../
 ---

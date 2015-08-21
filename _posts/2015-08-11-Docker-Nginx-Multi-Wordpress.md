@@ -1,5 +1,7 @@
 ---
 layout: posts
+comments: true
+comments-url-tag: docker-nginx-wordpress
 title: Using Docker and Nginx to serve multiple Wordpress sites
 root: ../../../
 ---
