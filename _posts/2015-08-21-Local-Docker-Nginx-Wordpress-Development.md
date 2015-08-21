@@ -40,3 +40,7 @@ Here's a quick guide to getting things ready locally before running the steps in
           mkdir /Users/<username>/Documents/Kitematic/nginx-proxy/root/certs
 
 5. Run the steps in the previous [post](/2015/08/11/Docker-Nginx-Multi-Wordpress.html).
+
+This should get you up and running with the ability to test HTTPS connections. 
+
+__Note:__ Don't forget to remove the host file redirects before testing the real site!
