@@ -133,6 +133,11 @@
   display: block;
 }
 
+.comments-load {
+
+  margin-bottom: 10px;
+}
+
 body {
   font: 14px/1.5 Merriweather, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #777;
