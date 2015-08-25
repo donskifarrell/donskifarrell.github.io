@@ -14,11 +14,13 @@ Fortunately, we can get around this with a bit of hackery and allow for multiple
 
 First, we need to add the ability to show comments:
 
-
+```
     <a class="comments-load" onclick="loadDisqus($(this), 'The Title Of The Thread', 'a-unique-url-tag');">
       Show comments
     </a>
     <noscript>
       Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
     </noscript>
+```
+
 
