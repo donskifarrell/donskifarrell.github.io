@@ -13,3 +13,13 @@ Grid: http://purecss.io/
 Fonts:
 	- Merriweather
 	- Ostrich Sans
+
+# Running with Docker
+
+* Get Kitematic / DockerToolbox
+* Run CLI
+* Navigate to directory where Jekyll site is found
+* Run command:
+
+	docker stop jekyll && docker rm jekyll && docker run -d -v "$PWD:/src" --name jekyll -p 4000:4000 grahamc/jekyll serve -H 0.0.0.0
+
