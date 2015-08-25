@@ -26,7 +26,7 @@ First, we need to add the ability to show comments:
 When a user clicks on the 'Show Comments' link, the loadDisqus function is called.
 I put the following in a separate Disqus.js file that is loaded with the page:
 
-```
+
     // Global variables needed by Disqus. The identifier and url should be different for each comment thread.
     var disqus_shortname = 'donalfarrellblog';
     var disqus_identifier;
@@ -76,5 +76,5 @@ I put the following in a separate Disqus.js file that is loaded with the page:
         });
       }
     };
-```
+
 
