@@ -95,6 +95,11 @@ As I run Wordpress sites, I need to use MySQL as my backend store. With Docker, 
       --restart=always \
       mysql:latest
 
+### Note: Memory buffer issues
+
+You may find that your MySQL instance aborts occasionally as you add more databases and run more docker containers. This is usually due to insufficient memory in your server instance. A useful tip is to add/increase the swap space on your server:
+
+[https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04)
 
 ### Note: PHPMyAdmin
 
