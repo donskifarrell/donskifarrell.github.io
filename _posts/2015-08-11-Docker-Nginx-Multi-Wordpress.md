@@ -93,7 +93,7 @@ As I run Wordpress sites, I need to use MySQL as my backend store. With Docker, 
       -e MYSQL_ROOT_PASSWORD=<YOUR-PASSWORD> \
       -v /root/mysql/data:/var/lib/mysql \
       --restart=always \
-      mysql:5.7
+      mysql:latest
 
 
 ### Note: PHPMyAdmin
