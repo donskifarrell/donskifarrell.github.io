@@ -4,7 +4,7 @@ title: Just Ideas
 root: ../../
 ---
 Here's a grand ol' list of brainwaves that have popped into my head over the years.
-I wouldn't put much thought into many of these as I certainly haven't.
+You shouldn't put much thought into many of these as I certainly haven't.
 These are just the ones that I was able to jot down quickly enough!
 
 
