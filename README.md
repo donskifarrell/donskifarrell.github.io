@@ -17,9 +17,11 @@ Fonts:
 # Running with Docker
 
 * Get Kitematic / DockerToolbox
-* Run CLI
-* Navigate to directory where Jekyll site is found
+* Run docker CLI from kitematic menu
+* Navigate to directory where Jekyll site is found (e.g dev/personal/blog)
 * Run command:
 
 	docker stop jekyll && docker rm jekyll && docker run -d -v "$PWD:/src" --name jekyll -p 4000:4000 grahamc/jekyll serve -H 0.0.0.0
+
+* In a browser, type the ip:port as shown in the Kitematic UI for the running jekyll container
 
