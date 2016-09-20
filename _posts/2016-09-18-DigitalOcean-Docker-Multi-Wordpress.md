@@ -33,13 +33,14 @@ Here are the steps:
 
 We want to secure the DO instance and make sure it is up to date.
 
-http://osxdaily.com/2011/04/05/setup-ssh-config-fie/
 SSH into the box using the password/IP address sent in the DO email and change the password.
 Add your newly created SSH key to the DO instance:
 
     cat ~/.ssh/<your-key>.pub | ssh root@[your.ip.address.here] "cat >> ~/.ssh/authorized_keys"
 
-SSH into the box and update the SSH config file (ssh**d**_config) to stop SSH connections using the password
+SSH into the box and update the SSH config file (ssh**d**_config) to stop SSH connections using the password.
+(You might want to setup an SSH config to make this easier: [info](
+http://osxdaily.com/2011/04/05/setup-ssh-config-fie/))
 
     sudo nano /etc/ssh/sshd_config
 
