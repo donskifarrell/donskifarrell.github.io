@@ -144,7 +144,7 @@ These are just the ones that I was able to jot down quickly enough!
     Reminder for shopping list near locations to pick up items.
 
 ### Vegetarian App
-    Help vegetarians quickly find decent places to eat in foreign towns so they don't have to rely on Subwayy. Aim at Indians?
+    Help vegetarians quickly find decent places to eat in foreign towns so they don't have to rely on Subwayy.
 
 ### Fresh
     Updates music on your iPod with freshest tracks that you would like. Keeps your classics that you listen to often
