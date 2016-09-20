@@ -154,6 +154,7 @@ Create a file `~/sites/https_portal.yml`
         - /var/run/docker.sock:/var/run/docker.sock:ro
 
 This sets up:
+
  * the ports to listen and expose
  * makes sure the container is always restarted
  * hooks into the nginx configs and SSL certs
@@ -196,6 +197,7 @@ Next, create a file `~/sites/sites.yml`
         - /root/sites/www/wp-SITE2/:/var/www/html:rw
 
 This sets up:
+
  * the MariaDB instance, with password
  * wordpress sites, each with it's own database instance
  * VIRTUAL_HOST environment variable for each site with acceptable url's
