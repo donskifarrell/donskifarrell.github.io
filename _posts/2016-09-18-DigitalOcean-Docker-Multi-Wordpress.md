@@ -1,8 +1,8 @@
 ---
 layout: posts
 comments: true
-comments-url-tag: digitalocean-docker-wordpress
-title: Updated: Using Docker and Nginx to serve multiple Wordpress sites
+comments-url-tag: digitalocean-docker--nginx-wordpress
+title: Updated - Using Docker and Nginx to serve multiple Wordpress sites
 root: ../../../
 ---
 
