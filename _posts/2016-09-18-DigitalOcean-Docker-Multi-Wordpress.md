@@ -29,7 +29,7 @@ Here are the steps:
  * unless you set up the SSH during the DO instance creation, which wasn't working for me.
 
 
-### DigitalOcean box setup
+## DigitalOcean box setup
 
 We want to secure the DO instance and make sure it is up to date.
 
@@ -130,7 +130,7 @@ There needs to be some data saved and shared on the DO box, so we need to create
 
     cd ~/sites
 
-### Create Docker Compose files for HTTPS_PORTAL and Wordpress containers
+## Create Docker Compose files for HTTPS_PORTAL and Wordpress containers
 
 I have two Docker Compose files to create and run my containers. One is for HTTPS_PORTAL and the other is for MariaDB and Wordpress sites.
 Unfortunately, the compose files need to use V1 syntax, due to underlying containers using that old syntax.
@@ -210,7 +210,7 @@ Finally, to run the sites we just run docker-compose and it will create the cont
     # Launch sites
     docker-compose -f sites.yml up -d --no-recreate
 
-#### PHPMyAdmin
+### PHPMyAdmin
 
 If you want to run PHPMyAdmin against the database
 
