@@ -210,7 +210,9 @@ Finally, to run the sites we just run docker-compose and it will create the cont
     # Launch sites
     docker-compose -f sites.yml up -d --no-recreate
 
+
 ### PHPMyAdmin
+
 
 If you want to run PHPMyAdmin against the database
 
